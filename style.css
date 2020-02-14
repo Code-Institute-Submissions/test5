@@ -1,0 +1,1363 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+    
+
+
+
+
+/*------------------body and menu------------------*/
+
+
+
+body {    
+  background-image: url("https://imgur.com/iaFiwd6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  }
+
+
+#menu li {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    width: 24.5%;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 250%;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #f5d878;
+}
+
+.active{
+     border-bottom: 1px solid #f5d878;
+}
+
+
+h1{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+
+
+/*------------------INDEX------------------*/
+
+
+
+
+
+.overview{
+  font-size: 180%;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color: white;
+}
+
+.vrtital{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.vr-img{
+  float: right;
+  padding-right: 2%;
+}
+
+
+
+.VR{
+  text-transform: none;
+  letter-spacing: 0px;
+  width: 45%;
+  height: 20%;
+  text-align: left;
+  font-size: 140%;
+  color: white;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+
+
+.artital{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+
+
+}
+
+.ar-img{
+  float: left;
+  padding-left: 2%;
+  margin-top: 1%;
+}
+
+
+
+
+.AR{
+  text-transform: none;
+  letter-spacing: 0px;
+  width: 45%;
+  height: 20%;
+  text-align: right;
+  font-size: 140%;
+  color: white;
+  margin-left: 50%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+.upcoming{
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.halflife{
+  position: relative;
+  width: 50%;
+  float: right;
+  padding-right: 2%;
+}
+
+.halflife a{
+  display: inline-block;
+  padding-left: 2%;
+}
+
+
+.halflife p{
+  font-size: 140%;
+  color: white;
+  float: right;
+}
+
+
+
+
+
+.interview{
+  margin-bottom: 200px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+
+
+.interview a{
+  display: inline-block;
+}
+
+
+
+
+.interview p{
+    color: white;
+    font-size: 140%;
+    
+}
+
+
+
+
+
+
+
+
+/*------------------AR & VR------------------*/
+
+
+
+
+
+
+
+
+
+
+.ar-p{
+  font-size: 120%;
+  color: white;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.ar-p, p1{
+    font-size: 150%;
+    color: white;
+}
+
+
+.row{
+width: 100%;
+position: relative;
+padding-bottom: 20%;
+
+
+}
+
+
+
+.videotext{
+  font-size: 200%;
+  color: white;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+.MicrosoftHoloLens2{
+  position: absolute;
+  right: 73%;
+}
+
+
+
+.magicleap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.tiltfive{
+  position: absolute;
+  padding-left: 75%;
+}
+
+
+
+h8{
+  font-size: 200%;
+  padding-left: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+h3{
+  float: right;
+  padding-right: 50px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+
+.MicrosoftHoloLens2overviwer{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.MicrosoftHoloLens2overviwer p{
+    font-size: 140%;
+    font-family: Oswald;
+    padding-top: 50px;
+    padding-right: 40%;
+    padding-left: 50px;
+}
+
+.MicrosoftHoloLens2overviwer img{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+.magicleapoverviwer{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:rgba(2, 2, 2, 0.63);
+}
+
+.magicleapoverviwer p{
+    text-align: right;
+    color: white;
+    font-size: 140%;
+    font-family: Oswald;
+    padding-top: 50px;
+    padding-left: 40%;
+    padding-right: 50px;
+}
+
+.magicleapoverviwer img{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+
+
+.tiltfiveoverviwer{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.tiltfiveoverviwer p{
+    font-size: 140%;
+    font-family: Oswald;
+    padding-top: 50px;
+    padding-right: 40%;
+    padding-left: 50px;
+}
+
+.tiltfiveoverviwer img{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+
+
+h4{
+  font-size: 140%;
+  color: white;
+}
+
+
+.video{
+    position: relative;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    font-size: 15px;
+
+}
+
+.video1{
+  position: absolute;
+left: 7%;
+
+
+}
+
+
+.video2 {
+  position: absolute;
+right: 38%;
+left: 38%;
+
+
+}
+
+.video3{
+  position: relative;
+  float: right;
+  padding-bottom: 5%;  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade*/
+
+
+
+
+
+/*------------------Contact------------------*/
+
+
+
+
+.contactoverview{
+
+  background-color: rgba(71, 71, 71, 0.623);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;  
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 150px;
+}
+
+
+.contactoverview p{
+color: white;
+font-size: 130%;
+position: relative;
+width: 100%;
+
+}
+
+
+
+.cont h7{
+color: white;
+font-size: 250%;
+position: relative;
+width: 100%;
+  
+
+}
+
+
+.cont p{
+  color: white;
+  font-size: 130%;
+  position: relative;
+  width: 100%;
+}
+
+.cont a{
+  color: white;
+  font-size: 130%;
+    position: relative;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------Footer------------------*/
+
+footer{
+   background-color: rgb(24, 10, 10);
+  background-position: relative;
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  clear: both;
+}
+
+h6{
+    color: rgb(228, 224, 224);
+    font-size: 110%;
+    margin-left: 1%;
+}
+
+
+
+
+
+  .personal-info-item {
+  margin-bottom:  0px;
+  display: block;
+  clear: both;
+}
+
+.personal-info-item .key, .personal-info-item .value{
+  padding-right: 2px;
+  display: inline-block;
+}
+
+.personal-info-item .key p, .personal-info-item .value p{
+  margin: 0;
+}
+
+
+.personal-info-item .key {
+  
+  margin-right: 2px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+.personal-info-item .key p{
+  font-weight: 700;
+}
+
+personal-info-item .value{
+  position: relative;
+  width: 10%;
+}
+
+footer p {
+  color: rgb(228, 224, 224);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------ phone styles------------------*/
+
+
+@media screen and (max-width: 479px) {
+
+
+  /*------------------INDEX------------------*/
+
+#menu li {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    width: 23.5%;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 150%;
+}
+
+
+h1{
+  font-size: 200%;
+}
+
+.vrtital{
+   background-color: rgba(24, 10, 10, 0.9);
+}
+
+
+.vr-img{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 50px;
+
+}
+
+
+
+.VR{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 140%;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+
+.artital{
+  background-color:rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.ar-img{
+  float: none;
+  padding-left: 20%;
+  padding-right: 16%;
+  padding-bottom: 50px;
+}
+
+
+
+
+.AR{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 140%;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 0%;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+.halflife{
+  background-color: rgba(24, 10, 10, 0.9);
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 75px;
+}
+
+
+.halflife iframe{
+  width: 100%;
+
+}
+
+.halflife a{
+  align-content: center;
+  color: white;
+  font-size: 140%;
+  padding-bottom: 50px;
+}
+
+
+.halflife p{
+  align-content: center;
+  font-size: 140%;
+  color: white;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+.interview{
+  background-color:rgba(255, 255, 255, 0.9);
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 75px;
+}
+
+.interview iframe{
+  width: 100%;
+
+}
+
+
+.interview a{
+  align-content: center;
+  color: black;
+  font-size: 140%;
+  padding-bottom: 50px;
+}
+
+
+
+
+.interview p{
+    color: black;
+    font-size: 140%;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+
+
+/*------------------AR&VR------------------*/
+
+
+
+
+
+
+
+.videotext{
+  font-size: 200%;
+  color: white;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+.MicrosoftHoloLens2{
+  position: relative;
+  padding-left: 1%;
+}
+
+
+
+.magicleap{
+  position: relative;
+  bottom: 0;
+  right: 0%;
+  padding-left: 5%;
+
+}
+
+
+
+.tiltfive{
+  position: absolute;
+  padding-left: 53%;
+}
+
+
+
+h8{
+  padding-left: 5px;
+
+}
+
+
+
+h3{
+  float: none;
+  padding-right: 5px;
+  
+}
+
+
+.MicrosoftHoloLens2overviwer{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.MicrosoftHoloLens2overviwer p{
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.MicrosoftHoloLens2overviwer img{
+  position: absolute;
+  bottom: 0;
+  left: 85%;
+  
+  
+}
+
+
+
+.magicleapoverviwer{
+    width: 100%;
+    height: auto;
+
+    background-color:rgba(2, 2, 2, 0.9);
+}
+
+.magicleapoverviwer p{
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.magicleapoverviwer img{
+  position: relative;
+  bottom: 0;
+  right: 20%;
+  
+}
+
+
+.tiltfiveoverviwer{
+ 
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tiltfiveoverviwer p{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.tiltfiveoverviwer img{
+  position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    left: 25%;
+
+}
+
+
+
+
+
+.video{
+  background-color: rgba(2, 2, 2, 0.9);
+    position: relative;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 50px;
+    font-size: 22px;
+  
+}
+
+
+
+
+
+.video1 {
+  position: relative;
+  display: inline;
+  left: 0;
+
+
+}
+
+
+.video1 iframe{
+  width: 100%;
+}
+
+
+
+.video2 {
+  position: relative;
+  display: inline;
+  right: 0%;
+  left: 0%;
+
+
+}
+
+.video2 iframe{
+  width: 100%;
+  
+}
+
+
+
+
+.video3{
+  position: relative;
+  display: inline;
+  float: none;
+  padding-bottom: 5%;  
+
+
+}
+
+.video3 iframe{
+  width: 100%;
+  
+}
+
+
+
+
+
+/*------------------Contact------------------*/
+
+
+
+.contactoverview{
+
+  background-color: rgba(71, 71, 71, 0.9);
+
+}
+
+.contactoverview p{
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+
+
+
+.cont a{
+  font-size: 110%;
+  
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+/*------------------ tablet styles------------------*/
+
+
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+
+  /*------------------INDEX------------------*/
+
+#menu li {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    width: 23.5%;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 150%;
+}
+
+
+h1{
+  font-size: 200%;
+}
+
+.vrtital{
+   background-color: rgba(24, 10, 10, 0.9);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.vr-img{
+  padding-left: 35%;
+  padding-right: 16%;
+  padding-bottom: 50px;
+
+}
+
+
+
+.VR{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 140%;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+.artital{
+  background-color:rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.ar-img{
+  float: none;
+  padding-left: 20%;
+  padding-right: 16%;
+  padding-bottom: 50px;
+}
+
+
+
+
+.AR{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 140%;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 0%;
+  margin-bottom: 5%;
+}
+
+
+
+.halflife{
+  background-color: rgba(24, 10, 10, 0.9);
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 75px;
+}
+
+
+.halflife iframe{
+  width: 100%;
+
+}
+
+.halflife a{
+  align-content: center;
+  color: white;
+  font-size: 140%;
+  padding-bottom: 50px;
+}
+
+
+.halflife p{
+  align-content: center;
+  font-size: 140%;
+  color: white;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+.interview{
+  background-color:rgba(255, 255, 255, 0.9);
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 75px;
+}
+
+.interview iframe{
+  width: 100%;
+
+}
+
+
+.interview a{
+  align-content: center;
+  color: black;
+  font-size: 140%;
+  padding-bottom: 50px;
+}
+
+
+
+
+.interview p{
+    color: black;
+    font-size: 140%;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+
+
+/*------------------AR&VR------------------*/
+
+
+
+
+
+
+
+.videotext{
+  font-size: 200%;
+  color: white;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+.MicrosoftHoloLens2{
+  position: relative;
+  bottom: 0;
+  right: 0%;
+  left: 6%;
+}
+
+
+
+.magicleap{
+  position: relative;
+  bottom: 0;
+  right: 6%;
+  left: 1%;
+
+}
+
+
+
+.tiltfive{
+  position: relative;
+  bottom: 0;
+  right: 46%;
+  
+  
+}
+
+
+
+h8{
+  padding-left: 50px;
+
+}
+
+
+
+h3{
+  float: none;
+  padding-right: 10%;
+  padding-left: 50px;
+  
+}
+
+
+.MicrosoftHoloLens2overviwer{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.MicrosoftHoloLens2overviwer p{
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.MicrosoftHoloLens2overviwer img{
+  position: relative;
+  margin-right: 170px;
+  bottom: 0;
+  left: 0%;
+  
+}
+
+
+
+.magicleapoverviwer{
+    width: 100%;
+    height: auto;
+
+    background-color:rgba(2, 2, 2, 0.9);
+}
+
+.magicleapoverviwer p{
+    text-align: left;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+.magicleapoverviwer img{
+  position: relative;
+  bottom: 0;
+  right: 0%;
+  
+}
+
+
+.tiltfiveoverviwer{
+ 
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tiltfiveoverviwer p{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.tiltfiveoverviwer img{
+  position: relative;
+    margin-top: 0px;
+    margin-right: 170px;
+    left: 0%;
+    
+    
+
+}
+
+
+
+
+
+.video{
+  background-color: rgba(2, 2, 2, 0.9);
+    position: relative;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 50px;
+    font-size: 22px;
+  
+}
+
+
+
+
+
+.video1 {
+  position: relative;
+  display: inline;
+  left: 0;
+
+
+}
+
+
+.video1 iframe{
+  width: 100%;
+}
+
+
+
+.video2 {
+  position: relative;
+  display: inline;
+  right: 0%;
+  left: 0%;
+
+
+}
+
+.video2 iframe{
+  width: 100%;
+  
+}
+
+
+
+
+.video3{
+  position: relative;
+  display: inline;
+  float: none;
+  padding-bottom: 5%;  
+
+
+}
+
+.video3 iframe{
+  width: 100%;
+  
+}
+
+
+
+
+
+/*------------------Contact------------------*/
+
+
+
+.contactoverview{
+
+  background-color: rgba(71, 71, 71, 0.9);
+
+}
+
+.contactoverview p{
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+
+
+
+.cont a{
+  font-size: 110%;
+  
+}
+
+
+
+
+}
+
+
+
+
+
+
+
